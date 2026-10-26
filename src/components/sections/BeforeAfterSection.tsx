@@ -106,19 +106,46 @@ const comparisons: ComparisonItem[] = [
         'Negative sentiment clusters go unnoticed until they dominate social feeds, forcing teams into reactive crisis communications.',
       snippet: {
         source: 'Community Forums & Viral Feeds',
-        detail: 'Awareness occurred 6 hours after issue peaked. Spreadsheet calculation errors in briefing.',
+        detail: 'Awareness occurred 6 hours after issue peaked on TikTok & X. Team caught completely unprepared.',
         metric: '6h+ lag in detection',
       },
     },
     automated: {
       label: 'With P&P 360',
-      headline: 'Early warning velocity radar with locked overrides',
+      headline: 'Sub-minute viral radar & locked analyst overrides',
       description:
-        'Early-warning radar triggers alerts when discussion velocity accelerates. Locked analyst overrides ensure automated re-runs never overwrite verified assessments.',
+        'Early-warning radar triggers alerts when discussion velocity accelerates across TikTok, X, and Facebook. Locked analyst overrides ensure automated re-runs never overwrite verified assessments.',
       snippet: {
         source: 'Early Warning Radar · Threshold 2.5σ',
         detail: 'Velocity alert triggered at 18 minutes. Emotion spectrum (Trust, Fear, Anger) attached.',
         metric: '< 18 min early alert window',
+      },
+    },
+  },
+  {
+    id: 'social-listening',
+    step: '04 · Social Media Depth',
+    title: 'Omnichannel Social Firehose',
+    manual: {
+      label: 'Manual Process',
+      headline: 'Surface keyword searches & unmonitored comment sections',
+      description:
+        'Standard clipping tools only index web RSS or search basic hashtags on X—completely missing viral TikTok FYP video audio, angry Facebook group debates, and local slang.',
+      snippet: {
+        source: 'Legacy Keyword Scraper',
+        detail: 'Scraped 15 surface tweets. Completely blind to 4,200 angry comments and 85k views on viral TikTok complaint video.',
+        metric: 'Zero comment-level visibility',
+      },
+    },
+    automated: {
+      label: 'With P&P 360',
+      headline: 'Firehose ingestion across 6 networks & netizen comment decoding',
+      description:
+        'Continuous ingestion of video transcripts, reels, and comment threads across TikTok, X, Facebook, Instagram, LinkedIn, and Threads—decoding Bahasa rojak and netizen slangs.',
+      snippet: {
+        source: 'Omnichannel Social Firehose · 6 Networks',
+        detail: 'Indexed 14,800 netizen comments. Flagged 86% Concern & Frustration velocity spike 4 hours before mainstream newsrooms noticed.',
+        metric: '< 3 min early warning alert',
       },
     },
   },
@@ -226,6 +253,12 @@ export function BeforeAfterSection() {
                   <span className="text-zinc-600 dark:text-zinc-400">Vernacular Monitoring</span>
                   <span className="font-bold text-zinc-900 dark:text-white">
                     100% Coverage <span className="text-zinc-600 dark:text-zinc-400 font-normal">(8/8 Dailies)</span>
+                  </span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-zinc-600 dark:text-zinc-400">Social Coverage</span>
+                  <span className="font-bold text-zinc-900 dark:text-white">
+                    6 Platforms + Comments <span className="text-zinc-600 dark:text-zinc-400 font-normal">(vs Surface RSS)</span>
                   </span>
                 </div>
                 <div className="flex justify-between items-center">

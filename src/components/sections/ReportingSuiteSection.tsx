@@ -242,38 +242,49 @@ export function ReportingSuiteSection() {
 
             {/* Micro-UI Visual: Active Social Spike Radar Card */}
             <div className="mt-6 space-y-2.5 relative" aria-hidden="true">
-              {/* Alert Feed Item 1: TikTok Viral Comment Spike */}
-              <div className="rounded-xl border border-rose-500/30 bg-rose-500/[0.06] dark:bg-rose-500/[0.08] p-2.5 backdrop-blur-sm space-y-1">
+              {/* Alert Feed Item 1: TikTok Viral FYP & Comment Surge */}
+              <div className="rounded-xl border border-rose-500/30 bg-rose-500/[0.06] dark:bg-rose-500/[0.08] p-2.5 backdrop-blur-sm space-y-1.5">
                 <div className="flex items-center justify-between text-[10px] font-mono">
                   <div className="flex items-center gap-1.5 font-bold text-rose-700 dark:text-rose-400">
                     <span className="w-1.5 h-1.5 rounded-full bg-rose-500 animate-ping" />
-                    <span>TikTok & X Ingestion</span>
+                    <span>TikTok FYP & Comment Surge</span>
                   </div>
-                  <span className="text-rose-600 dark:text-rose-300 font-semibold tabular-nums">+42% velocity</span>
+                  <span className="text-rose-600 dark:text-rose-300 font-semibold tabular-nums">+48% velocity</span>
                 </div>
-                <div className="text-[11px] text-zinc-800 dark:text-zinc-200 font-medium truncate">
-                  Unverified rumor accelerating in comments
+                <div className="text-[11px] text-zinc-800 dark:text-zinc-200 font-medium">
+                  84k views · 1,820 comments analyzed
+                </div>
+                {/* Netizen Sentiment Meter */}
+                <div className="space-y-1 pt-0.5">
+                  <div className="flex justify-between text-[9px] font-mono text-zinc-500 dark:text-zinc-400">
+                    <span className="text-rose-600 dark:text-rose-400 font-semibold">86% Netizen Concern</span>
+                    <span>14% Inquiries</span>
+                  </div>
+                  <div className="h-1 w-full bg-zinc-200 dark:bg-zinc-800 rounded-full overflow-hidden flex">
+                    <div className="h-full bg-rose-500 w-[86%]" />
+                    <div className="h-full bg-blue-400 w-[14%]" />
+                  </div>
                 </div>
               </div>
 
-              {/* Alert Feed Item 2: X Trending Keyword */}
+              {/* Alert Feed Item 2: X & Facebook Cross-Spillover */}
               <div className="rounded-xl border border-zinc-200/80 dark:border-white/10 bg-white/90 dark:bg-zinc-800/80 p-2.5 shadow-sm space-y-1">
                 <div className="flex items-center justify-between text-[10px] font-mono">
                   <div className="flex items-center gap-1.5 text-zinc-700 dark:text-zinc-300 font-semibold">
                     <span className="w-1.5 h-1.5 rounded-full bg-blue-500" />
-                    <span>X Firehose Stream</span>
+                    <span>X & FB Community Spillover</span>
                   </div>
                   <span className="text-zinc-500 dark:text-zinc-400 tabular-nums">14.8k posts/30m</span>
                 </div>
                 <div className="text-[11px] text-zinc-600 dark:text-zinc-400 truncate">
-                  Trending topic tracked before mainstream press
+                  Trending hashtag tracked before editorial news desks
                 </div>
               </div>
 
               {/* Status footer pill */}
               <div className="pt-1 flex items-center justify-between text-[10px] font-mono text-zinc-500 dark:text-zinc-400">
-                <span>Threshold: 2.5σ</span>
-                <span className="text-blue-900 dark:text-[#B3CCF5] font-semibold">WhatsApp brief dispatched</span>
+                <span>Velocity: 3.4σ</span>
+                <span className="text-blue-900 dark:text-[#B3CCF5] font-semibold">WhatsApp alert dispatched</span>
               </div>
             </div>
           </div>

@@ -49,12 +49,16 @@ export function HeroSection() {
 
           <div className="pt-4 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs font-mono text-zinc-600 dark:text-zinc-400">
             <div className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-              <span>6 Social Platforms: X · TikTok · IG · FB · LinkedIn · Threads</span>
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+              <span>
+                <strong className="text-zinc-900 dark:text-zinc-200 font-semibold">Live Social Firehose:</strong> TikTok FYP · X · Facebook · IG · Threads · LinkedIn
+              </span>
             </div>
             <div className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 rounded-full bg-[#B3CCF5]" />
-              <span>100+ News Portals & 8 Vernacular Dailies</span>
+              <span>
+                <strong className="text-zinc-900 dark:text-zinc-200 font-semibold">Vernacular Press:</strong> 100+ Portals & 8 Chinese/Tamil Dailies
+              </span>
             </div>
             <div className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 rounded-full bg-blue-500" />

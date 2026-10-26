@@ -165,7 +165,7 @@ export function HeroDashboardMockup() {
                 </span>
               </div>
               <p className="text-[10px] text-zinc-500 dark:text-zinc-400 font-mono truncate">
-                100+ Portals & 8 Dailies
+                100+ Portals & 6 Social Firehoses
               </p>
             </div>
 
@@ -214,7 +214,7 @@ export function HeroDashboardMockup() {
                 <span className="text-[11px] text-rose-500 font-mono">at 08:14 MYT</span>
               </div>
               <p className="text-[10px] text-zinc-500 dark:text-zinc-400 font-mono truncate">
-                Threshold Alert Dispatched
+                TikTok & X Velocity Spike Triaged
               </p>
             </div>
           </div>
