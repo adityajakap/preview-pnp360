@@ -2,7 +2,6 @@ import { Navbar } from '@/components/layout/Navbar';
 import { HeroSection } from '@/components/hero/HeroSection';
 import { HowItWorksSection } from '@/components/sections/HowItWorksSection';
 import { BeforeAfterSection } from '@/components/sections/BeforeAfterSection';
-import { AskDataSection } from '@/components/sections/AskDataSection';
 import { ReportingSuiteSection } from '@/components/sections/ReportingSuiteSection';
 import { CampaignRoiSection } from '@/components/sections/CampaignRoiSection';
 import { PersonasSection } from '@/components/sections/PersonasSection';
@@ -30,42 +29,37 @@ export default function HomePage() {
           <ReportingSuiteSection />
         </SectionReveal>
 
-        {/* Section 5: Ask Your Data Anything */}
-        <SectionReveal>
-          <AskDataSection />
-        </SectionReveal>
-
-        {/* Section 6: Before vs. After (Manual vs. Automated) */}
+        {/* Section 5: Before vs. After (Manual vs. Automated) */}
         <SectionReveal>
           <BeforeAfterSection />
         </SectionReveal>
 
-        {/* Section 7: Campaign ROI Attribution */}
+        {/* Section 6: Campaign ROI Attribution */}
         <SectionReveal>
           <CampaignRoiSection />
         </SectionReveal>
 
-        {/* Section 8: Personas / Solutions */}
+        {/* Section 7: Personas / Solutions */}
         <SectionReveal>
           <PersonasSection />
         </SectionReveal>
 
-        {/* Section 9: Enterprise Trust & Data Privacy */}
+        {/* Section 8: Enterprise Trust & Data Privacy */}
         <SectionReveal>
           <TrustSecuritySection />
         </SectionReveal>
 
-        {/* Section 10: FAQ */}
+        {/* Section 9: FAQ */}
         <SectionReveal>
           <FaqSection />
         </SectionReveal>
 
-        {/* Section 11: Final CTA + Book a Demo Form */}
+        {/* Section 10: Final CTA + Book a Demo Form */}
         <SectionReveal>
           <CtaSection />
         </SectionReveal>
       </main>
-      {/* Section 12: Footer */}
+      {/* Section 11: Footer */}
       <Footer />
     </div>
   );

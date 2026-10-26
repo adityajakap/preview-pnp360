@@ -59,18 +59,17 @@ This repository contains the production landing page for P&P 360, built to insti
 1. **Sticky Glassmorphic Navbar**: Adaptive brand logo with light/dark contrast handling, section navigation, and rapid "Book a Demo" CTA.
 2. **Hero Command Stage**: 3D interactive radar globe, verified metrics bar, and 6-platform live social ingestion feed.
 3. **How It Works**: 3-step intelligence workflow: *Connect & Watch*, *Detect & Understand*, and *Report & Act*.
-4. **Before vs. After (Comparison Matrix)**: Side-by-side breakdown contrasting manual media clipping with automated intelligence.
-5. **Interactive Executive Intelligence ("Ask Your Data Anything")**: Query bar displaying leadership-ready question prompts with verified citations.
-6. **Reporting Suite**:
+4. **Reporting Suite**:
    - 1-Click Snap Infographic (PNG) for instant leadership briefings.
    - Scheduled morning briefs (automated email and PDF delivery).
    - Competitor Share of Voice (SOV) benchmark.
    - Real-time vernacular clipping with interactive Mandarin/Tamil-to-Malay translation preview.
-7. **Campaign Attribution Funnel**: Attribution pipeline connecting paid ad exposure and physical on-ground QR poster scans to verified registrations.
-8. **Audience Personas**: Tailored solutions for Government & Public Agencies, PR & Corporate Communications, and Marketing Agencies.
-9. **Enterprise Trust & Multi-Tenant Security**: Interactive PostgreSQL Row-Level Security (RLS) data isolation diagram.
-10. **Frequently Asked Questions**: Accessible accordion addressing setup speed, media source coverage, citation integrity, and data sovereignty.
-11. **High-Impact CTA & Demo Form**: Lead capture interface with instant field validation and asynchronous submission handling.
+5. **Before vs. After (Comparison Matrix)**: Side-by-side breakdown contrasting manual media clipping with automated intelligence.
+6. **Campaign Attribution Funnel**: Attribution pipeline connecting paid ad exposure and physical on-ground QR poster scans to verified registrations.
+7. **Audience Personas**: Tailored solutions for Government & Public Agencies, PR & Corporate Communications, and Marketing Agencies.
+8. **Enterprise Trust & Multi-Tenant Security**: Interactive PostgreSQL Row-Level Security (RLS) data isolation diagram.
+9. **Frequently Asked Questions**: Accessible accordion addressing setup speed, media source coverage, citation integrity, and data sovereignty.
+10. **High-Impact CTA & Demo Form**: Lead capture interface with instant field validation and asynchronous submission handling.
 
 ---
 
@@ -100,7 +99,6 @@ Landing-Page-PNP360/
 │   │   ├── mockups/
 │   │   │   └── HeroDashboardMockup.tsx # SVG micro-UI dashboard mock
 │   │   ├── sections/
-│   │   │   ├── AskDataSection.tsx      # Executive query marquee
 │   │   │   ├── BeforeAfterSection.tsx  # Manual vs. automated comparison
 │   │   │   ├── CampaignRoiSection.tsx  # Multi-channel attribution funnel
 │   │   │   ├── CtaSection.tsx          # Final conversion callout

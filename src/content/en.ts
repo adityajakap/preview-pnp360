@@ -111,29 +111,6 @@ export const content = {
     },
   },
 
-  askData: {
-    sectionTag: 'VERIFIED AI INSIGHTS',
-    headline: 'Instant, verifiable answers to the questions your leadership asks most.',
-    description:
-      'When leadership calls for an emergency update, get executive-ready intelligence immediately—computed strictly from verified aggregates with zero risk of AI hallucination.',
-    marqueeQueries: [
-      'Why did negative sentiment accelerate on TikTok and X between 08:00 and 09:30?',
-      'Which Key Opinion Leaders (KOLs) or Facebook groups are amplifying the boycott narrative?',
-      'How does netizen mood on Instagram Reels compare to editorial coverage in Malaysiakini and The Star?',
-      'Did the viral X rumor spill over into tonight’s broadcast news or Sin Chew Daily?',
-      'What are the top citizen concerns emerging from Tamil and Chinese social forums this week?',
-      'Summarize today’s social backlash and draft key rebuttal talking points for the 11:00 press briefing',
-      'Which social media channels and influencer activations drove the highest verified sign-ups this month?',
-    ],
-    sampleResponse: {
-      query: 'Why did negative sentiment accelerate on TikTok and X between 08:00 and 09:30 this morning?',
-      aiAnswer:
-        'A 15-second customer service video on TikTok gained 84,000 views in 90 minutes, triggering +48% viral velocity and 1,820 comments (86% Concern & Frustration). The issue was quoted onto X with a hashtag spike (#IsuPerkhidmatan). Mainstream press and broadcast TV have not picked up the story yet. Releasing the prepared operational clarification statement before 11:00 will neutralize the narrative before editorial desks publish.',
-      verifiedNote: 'Zero Hallucination · Computed strictly from 14,820 social comments & news mentions',
-      speedTag: 'Computed in 1.4s',
-    },
-  },
-
   reporting: {
     sectionTag: 'FEATURE HIGHLIGHTS',
     headline: 'Engineered for speed. Built for total narrative control.',
