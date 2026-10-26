@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 255 255 255;
+    --foreground: 9 9 11;
+    --surface: 244 244 245;
+    --surface-border: 228 228 231;
+  }
+
+  .dark {
+    --background: 9 9 11;
+    --foreground: 250 250 250;
+    --surface: 24 24 27;
+    --surface-border: 39 39 42;
+  }
+
+  body {
+    @apply bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 antialiased selection:bg-[#B3CCF5]/30 selection:text-zinc-900 dark:selection:text-[#B3CCF5];
+  }
+}
+
+/* Glassmorphic Elements with #B3CCF5 Tint */
+.glass-panel {
+  background: rgba(179, 204, 245, 0.06);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(179, 204, 245, 0.22);
+  box-shadow: 0 4px 20px -2px rgba(179, 204, 245, 0.08);
+}
+
+.glass-accent {
+  background: rgba(179, 204, 245, 0.12);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(179, 204, 245, 0.28);
+}
+
+.glass-badge {
+  background: rgba(179, 204, 245, 0.12);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(179, 204, 245, 0.3);
+  color: #1e3b79;
+}
+
+.dark .glass-badge {
+  background: rgba(179, 204, 245, 0.1);
+  border: 1px solid rgba(179, 204, 245, 0.25);
+  color: #B3CCF5;
+}
+
+/* Glassmorphic White Button */
+.glass-btn-white {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.05), inset 0 1px 0 0 rgba(255, 255, 255, 0.9);
+}
+
+.dark .glass-btn-white {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 4px 16px -2px rgba(0, 0, 0, 0.3), inset 0 1px 0 0 rgba(255, 255, 255, 0.08);
+}
+
+.glass-btn-white:hover {
+  background: rgba(255, 255, 255, 0.85);
+  border-color: rgba(255, 255, 255, 0.95);
+}
+
+.dark .glass-btn-white:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+/* Micro-Borders & Tactile Elements */
+.micro-border {
+  @apply border border-zinc-200/80 dark:border-white/[0.08];
+}
+
+.micro-card {
+  @apply relative overflow-hidden rounded-xl border border-zinc-200/80 dark:border-white/[0.08] bg-white/70 dark:bg-zinc-900/50 backdrop-blur-md shadow-sm;
+}
+
+/* Number / Data styling */
+.tabular-data {
+  @apply font-mono tabular-nums tracking-tight;
+}
+
+/* Marquee Pause on Hover & Reduced Motion */
+.marquee-container:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none !important;
+  }
+}
