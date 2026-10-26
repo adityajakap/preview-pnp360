@@ -57,7 +57,7 @@ export function HeroSection() {
             <div className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 rounded-full bg-[#B3CCF5]" />
               <span>
-                <strong className="text-zinc-900 dark:text-zinc-200 font-semibold">Vernacular Press:</strong> 100+ Portals & 8 Chinese/Tamil Dailies
+                <strong className="text-zinc-900 dark:text-zinc-200 font-semibold">Digital News & Vernacular:</strong> 10,000+ Portals & 8 Chinese/Tamil Dailies
               </span>
             </div>
             <div className="flex items-center gap-2">
