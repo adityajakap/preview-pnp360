@@ -65,6 +65,26 @@ export function HeroSection() {
               <span>1-Click Executive WhatsApp Snaps & PDFs</span>
             </div>
           </div>
+
+          {/* We Listen To Everything: 4 Pillars 360° Coverage Grid */}
+          <div className="pt-2 max-w-4xl mx-auto">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-3 text-left">
+              {hero.coveragePillars.pillars.map((pillar) => (
+                <div
+                  key={pillar.label}
+                  className="p-3 rounded-2xl border border-zinc-200/80 dark:border-white/10 bg-white/70 dark:bg-zinc-900/60 backdrop-blur-md shadow-sm space-y-1 hover:border-[#B3CCF5]/60 transition-all"
+                >
+                  <div className="flex items-center gap-1.5 font-bold text-xs text-zinc-950 dark:text-white">
+                    <span className="w-1.5 h-1.5 rounded-full bg-blue-600 dark:bg-[#B3CCF5]" />
+                    <span>{pillar.label}</span>
+                  </div>
+                  <p className="text-[11px] text-zinc-600 dark:text-zinc-400 leading-snug">
+                    {pillar.desc}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
 
         {/* 3D Interactive Media Globe / 360 Aperture Focal Stage */}

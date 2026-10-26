@@ -14,23 +14,44 @@ export const content = {
 
   hero: {
     badge: 'Powered By: People & Pixel',
-    headline: 'Own Your Public Narrative. Catch Crises Before They Escalate.',
+    headline: 'We Listen To Everything. Own Your Public Narrative.',
     subheadline:
-      'PR crises erupt on TikTok, X, and Facebook hours before reaching the press. People & Pixel 360 unifies 100+ news portals, 8 vernacular dailies, and 6 live social networks into a single intelligence feed—decoding netizen sentiment in real time so your leadership stays ahead of the story.',
+      'A complete 360° view of your brand’s digital presence. We listen across digital news, online web, social media, and competitor channels—decoding public sentiment in real time so your team catches crises before they escalate.',
     ctaPrimary: 'Book a Demo',
     ctaSecondary: 'See How It Works',
+    coveragePillars: {
+      tagline: 'A Complete 360° View',
+      pillars: [
+        {
+          label: 'Digital News',
+          desc: 'Monitor 10,000+ online news portals & broadcast feeds.',
+        },
+        {
+          label: 'Online Web',
+          desc: 'Cover all stories, blogs, forums & digital conversations.',
+        },
+        {
+          label: 'Social Media',
+          desc: 'Track viral trends across TikTok, X, FB, IG, LinkedIn & Threads.',
+        },
+        {
+          label: 'Competitors Watch',
+          desc: 'Observe your industry competitors & benchmark Share of Voice.',
+        },
+      ],
+    },
     valueBar: [
       {
-        title: 'Omnichannel Social Firehose (6 Platforms)',
-        desc: 'Deep ingestion across TikTok FYP, X trending topics, Facebook community groups, Instagram Reels, LinkedIn, and Threads—indexing video transcripts and netizen comments in real time.',
+        title: 'We Listen To Everything (360° View)',
+        desc: 'Digital news portals, online web, 6 live social networks, and 8 Chinese and Tamil dailies unified in one feed.',
       },
       {
-        title: 'Zero Vernacular Blind Spots',
-        desc: 'National portals, broadcast feeds, and all 8 Chinese and Tamil dailies translated automatically into certified standard Bahasa Melayu in under 210ms.',
+        title: 'Turn Noise Into Knowledge',
+        desc: 'Automatic sentiment tagging, context filtering, and early-warning alerts before issues escalate.',
       },
       {
-        title: '1-Click Boardroom & WhatsApp Briefs',
-        desc: 'Transform millions of social and press signals into high-impact Snap PNGs and scheduled 08:00 PDF morning dossiers. 100% verified metrics, zero hallucination.',
+        title: 'Save Valuable Time',
+        desc: 'Transform hours of manual web searching into 1-click mobile WhatsApp Snaps and scheduled 08:00 PDF morning dossiers.',
       },
     ],
     mockup: {
@@ -56,28 +77,40 @@ export const content = {
   },
 
   howItWorks: {
-    sectionTag: 'HOW IT WORKS',
-    headline: 'From raw media noise to leadership brief in 3 simple steps.',
+    sectionTag: 'KEYWORD TO INSIGHT',
+    headline: 'Few simple steps from raw noise to strategic action.',
     description:
-      'No complex configuration or manual spreadsheet work. Set your monitoring scope once and let automated intelligence run on autopilot.',
+      'No complex configuration or manual spreadsheet work. Choose what to track once and let automated intelligence run on autopilot.',
     steps: [
       {
         num: '01',
-        title: 'Connect & Ingest the Firehose',
-        tag: 'ZERO MANUAL SEARCHING',
-        desc: 'Capture the full Malaysian discourse in one view: live TikTok FYP video captions & comments, X trending threads, Facebook community groups, Instagram Reels, LinkedIn feeds, and Threads debates, alongside 100+ news portals and 8 vernacular dailies.',
+        title: 'Set',
+        tag: 'TARGET DEFINITION',
+        desc: 'Choose what to track. Set the right keywords, brand names, product lines, and key executives to monitor.',
       },
       {
         num: '02',
-        title: 'Detect Viral Velocity & Netizen Sentiment',
-        tag: 'SUB-MINUTE CRISIS RADAR',
-        desc: 'Catch crises at the spark. Our engine analyzes comment-level sentiment and decodes colloquial Malaysian slang (Bahasa rojak, Manglish, netizen terms)—alerting your team to negative sentiment surges within minutes, not the next morning.',
+        title: 'Listen',
+        tag: '360° SCANNING',
+        desc: 'Scan thousands of sources across social media platforms (TikTok, X, FB, IG, Threads, LinkedIn), global news outlets, and industry sites.',
       },
       {
         num: '03',
-        title: 'Report & Command the Narrative',
-        tag: 'BOARDROOM READY IN 1-CLICK',
-        desc: 'Convert chaotic social discussions and press clips into action. Dispatch mobile-ready Snap PNG infographics to WhatsApp leadership groups, automate scheduled 08:00 PDF dossiers, and attribute campaign outcomes to confirmed sign-ups.',
+        title: 'Filter',
+        tag: 'CONTEXT & SENTIMENT',
+        desc: 'Cut through the noise. Categorize every mention, tag audience sentiment (positive, neutral, negative), and identify the context behind every post.',
+      },
+      {
+        num: '04',
+        title: 'Report',
+        tag: 'CLEAN INTELLIGENCE',
+        desc: 'Receive clean and organized updates, giving you a clearer picture of your brand’s digital presence via mobile Snaps and PDF briefs.',
+      },
+      {
+        num: '05',
+        title: 'Act',
+        tag: 'NARRATIVE LEADERSHIP',
+        desc: 'Armed with verified key insights, grasp the public perspective, contain emerging crises, and confidently plan your strategic next step.',
       },
     ],
   },
@@ -112,46 +145,79 @@ export const content = {
   },
 
   reporting: {
-    sectionTag: 'FEATURE HIGHLIGHTS',
-    headline: 'Engineered for speed. Built for total narrative control.',
+    sectionTag: 'KEY FEATURES',
+    headline: 'Help your team see what matters most.',
     description:
-      'Equip your communications team with automated intelligence: detect emerging issues early, monitor cross-language media, and measure the real impact of your campaigns.',
+      'Bring scattered mentions into one view — a customized dashboard. Track brand mentions in real time, understand where, how, and why you are mentioned, and turn daily monitoring into comprehensive reports.',
     cards: [
       {
         id: 'vernacular-capture',
-        title: 'Zero-latency vernacular capture',
-        desc: 'Stream Mandarin and Tamil news portals translated in real time to standard Bahasa Melayu with side-by-side original source verification.',
+        title: 'Zero-Latency Vernacular Capture',
+        desc: 'Stream Mandarin and Tamil news portals translated in real time to standard Bahasa Melayu in 210ms with side-by-side original source verification.',
         badge: '8 Dailies Covered',
       },
       {
-        id: 'negative-alert',
-        title: 'Omnichannel Social & Virality Radar',
-        desc: 'Track live conversations across TikTok, X, Instagram, Facebook, Threads, and LinkedIn. Analyze comment-level sentiment, measure viral acceleration velocity, and detect influencer amplification before stories break into mainstream news.',
-        badge: '6 Social Networks · Firehose Ingestion',
+        id: 'real-time-visibility',
+        title: 'Real-Time Visibility & Social Radar',
+        desc: 'Track your brand mentions in real time. Set custom triggers for your brand name, products, or key executives and receive instant notifications across 6 social networks before issues escalate.',
+        badge: 'Instant Trigger Alerts',
       },
       {
-        id: 'snap-export',
-        title: '1-Click WhatsApp Snap',
-        desc: 'Export high-resolution visual briefs formatted specifically for mobile executive briefing groups and slide presentations.',
-        badge: '1920x1080 High-Res',
+        id: 'detailed-reports',
+        title: 'Detailed Reports & WhatsApp Snaps',
+        desc: 'Turn daily monitoring into clear and comprehensive reports. Export 1-click mobile WhatsApp Snaps and formatted briefing decks for ease of analysis and boardroom clarity.',
+        badge: '1-Click PNG Brief',
       },
       {
-        id: 'emotion-velocity',
-        title: 'Netizen emotion & mood velocity',
-        desc: 'Go beyond basic positive/negative scores. Map 8 nuanced emotions (Trust, Fear, Anger, Disgust) across comment sections and editorial pieces to gauge authentic public sentiment.',
-        badge: 'Plutchik Emotion Index',
+        id: 'sentiment-analysis',
+        title: 'Sentiment Analysis & Audience Mood',
+        desc: 'Understand the audience mood. Our system tags every mention as positive, negative, or neutral, helping you gauge public perception instantly across editorial and comment threads.',
+        badge: 'Audience Mood Index',
       },
       {
         id: 'morning-brief',
-        title: 'Automated morning brief',
+        title: 'Automated Morning Briefs',
         desc: 'Deliver formatted PDF dossiers to leadership inboxes at 08:00 on autopilot—zero staff overtime required.',
         badge: 'Daily 08:00 MYT',
       },
       {
         id: 'smart-attribution',
-        title: 'Full-funnel campaign attribution',
-        desc: 'Track how press releases, digital ad spend, and physical activations convert directly into verified registrations, inquiries, and measurable outcomes on your website.',
+        title: 'Full-Funnel Campaign Attribution',
+        desc: 'Connect PR mentions, paid social ads, and on-ground QR activations directly into verified conversions, website registrations, and measurable ROI.',
         badge: 'Multi-Touch ROI',
+      },
+    ],
+  },
+
+  coreBenefits: {
+    sectionTag: 'CORE BENEFITS',
+    headline: 'Turn Noise Into Knowledge.',
+    description:
+      'Empower your communications leadership with actionable intelligence: eliminate guesswork, protect your brand equity, and free your team to focus on strategic execution.',
+    benefits: [
+      {
+        num: '01',
+        title: 'Protect Reputation',
+        tag: 'CRISIS EARLY DETECTION',
+        desc: 'Identify crises before they escalate. Early detection of negative trends allows your team to respond proactively and manage the narrative before stories dominate newsrooms.',
+      },
+      {
+        num: '02',
+        title: 'Understand Context',
+        tag: 'TOTAL PERSPECTIVE',
+        desc: 'Understand where, how, and why you are being mentioned. Cut through surface chatter, decode authentic netizen intent, and own your narrative with confidence.',
+      },
+      {
+        num: '03',
+        title: 'Data-Driven Decisions',
+        tag: 'STRATEGIC ADVANTAGE',
+        desc: 'Replace guesswork with useful insights. Use comprehensive intelligence reports to guide your marketing spend, refine corporate messaging, and stay one step ahead of competitors.',
+      },
+      {
+        num: '04',
+        title: 'Save Valuable Time',
+        tag: 'ZERO MANUAL OVERTIME',
+        desc: 'Eliminate hours of manual web searching and screenshotting. Automated tracking frees up your communications team to focus on high-impact strategy rather than manual data collection.',
       },
     ],
   },

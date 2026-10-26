@@ -57,20 +57,23 @@ This repository contains the production landing page for P&P 360, built to insti
 ## Landing Page Sections
 
 1. **Sticky Glassmorphic Navbar**: Adaptive brand logo with light/dark contrast handling, section navigation, and rapid "Book a Demo" CTA.
-2. **Hero Command Stage**: 3D interactive radar globe, verified metrics bar, and 6-platform live social ingestion feed.
-3. **How It Works**: 3-step intelligence workflow: *Connect & Watch*, *Detect & Understand*, and *Report & Act*.
-4. **Reporting Suite**:
-   - 1-Click Snap Infographic (PNG) for instant leadership briefings.
-   - Scheduled morning briefs (automated email and PDF delivery).
-   - Competitor Share of Voice (SOV) benchmark.
-   - Real-time vernacular clipping with interactive Mandarin/Tamil-to-Malay translation preview.
-5. **Before vs. After (Comparison Matrix)**: Side-by-side breakdown contrasting manual media clipping with automated intelligence.
-6. **Campaign Attribution Funnel**: Attribution pipeline connecting paid ad exposure and physical on-ground QR poster scans to verified registrations.
-7. **Audience Personas**: Tailored solutions for Government & Public Agencies, PR & Corporate Communications, and Marketing Agencies.
-8. **Institutional Pricing**: Transparent, tiered investment structure (Professional, Enterprise & Vernacular, Institutional Ministry) with monthly/annual toggle and e-Perolehan procurement assurance.
-9. **Enterprise Trust & Multi-Tenant Security**: Interactive PostgreSQL Row-Level Security (RLS) data isolation diagram.
-10. **Frequently Asked Questions**: Accessible accordion addressing setup speed, media source coverage, citation integrity, and data sovereignty.
-11. **High-Impact CTA & Demo Form**: Lead capture interface with instant field validation and asynchronous submission handling.
+2. **Hero Command Stage**: 360° coverage pillars (Digital News, Online Web, Social Media, Competitors Watch), 3D interactive radar globe, and live social stream firehose.
+3. **Keyword To Insight Workflow**: 5-step intelligence pipeline (*01 Set, 02 Listen, 03 Filter, 04 Report, 05 Act*).
+4. **Key Features Suite**:
+   - Real-Time Visibility with custom keyword triggers.
+   - Sentiment & Audience Mood Analysis (Plutchik 8-Emotion Index).
+   - One Place customized dashboard for unified context.
+   - Detailed Reports (1-Click mobile WhatsApp Snaps & scheduled 08:00 PDF dossiers).
+   - Zero-Latency Vernacular Capture (8 Chinese & Tamil dailies translated to BM).
+   - Full-Funnel Campaign Attribution.
+5. **Core Benefits (Turn Noise Into Knowledge)**: 4 institutional pillars (*01 Protect Reputation, 02 Understand Context, 03 Data-Driven Decisions, 04 Save Valuable Time*).
+6. **Before vs. After (Comparison Matrix)**: Side-by-side breakdown contrasting manual media clipping with automated intelligence.
+7. **Campaign Attribution Funnel**: Attribution pipeline connecting paid ad exposure and physical on-ground QR poster scans to verified registrations.
+8. **Audience Personas**: Tailored solutions for Government & Public Agencies, PR & Corporate Communications, and Marketing Agencies.
+9. **Packages & Pricing**: Specialized packages for Media Intelligence and Social Watch with dual MYR 🇲🇾 / IDR 🇮🇩 currency switcher and 14-day free trial.
+10. **Enterprise Trust & Multi-Tenant Security**: Interactive PostgreSQL Row-Level Security (RLS) data isolation diagram.
+11. **Frequently Asked Questions**: Accessible accordion addressing setup speed, media source coverage, citation integrity, and data sovereignty.
+12. **High-Impact CTA & Demo Form**: Lead capture interface with instant field validation and asynchronous submission handling.
 
 ---
 
@@ -102,6 +105,7 @@ Landing-Page-PNP360/
 │   │   ├── sections/
 │   │   │   ├── BeforeAfterSection.tsx  # Manual vs. automated comparison
 │   │   │   ├── CampaignRoiSection.tsx  # Multi-channel attribution funnel
+│   │   │   ├── CoreBenefitsSection.tsx # 4 pillars: Turn Noise Into Knowledge
 │   │   │   ├── CtaSection.tsx          # Final conversion callout
 │   │   │   ├── DemoForm.tsx            # Lead generation submission form
 │   │   │   ├── FaqAccordion.tsx        # Accessible interactive FAQ accordion

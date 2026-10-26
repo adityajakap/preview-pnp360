@@ -1,8 +1,9 @@
 import { Navbar } from '@/components/layout/Navbar';
 import { HeroSection } from '@/components/hero/HeroSection';
 import { HowItWorksSection } from '@/components/sections/HowItWorksSection';
-import { BeforeAfterSection } from '@/components/sections/BeforeAfterSection';
 import { ReportingSuiteSection } from '@/components/sections/ReportingSuiteSection';
+import { CoreBenefitsSection } from '@/components/sections/CoreBenefitsSection';
+import { BeforeAfterSection } from '@/components/sections/BeforeAfterSection';
 import { CampaignRoiSection } from '@/components/sections/CampaignRoiSection';
 import { PersonasSection } from '@/components/sections/PersonasSection';
 import { PricingSection } from '@/components/sections/PricingSection';
@@ -25,12 +26,17 @@ export default function HomePage() {
           <HowItWorksSection />
         </SectionReveal>
 
-        {/* Section 4: Feature Highlights (Reporting Suite / 6-Card Bento Grid) */}
+        {/* Section 4: Feature Highlights (Key Features / 6-Card Bento Grid) */}
         <SectionReveal>
           <ReportingSuiteSection />
         </SectionReveal>
 
-        {/* Section 5: Before vs. After (Manual vs. Automated) */}
+        {/* Section 5: Core Benefits (Turn Noise Into Knowledge) */}
+        <SectionReveal>
+          <CoreBenefitsSection />
+        </SectionReveal>
+
+        {/* Section 6: Before vs. After (Manual vs. Automated) */}
         <SectionReveal>
           <BeforeAfterSection />
         </SectionReveal>

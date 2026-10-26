@@ -15,8 +15,8 @@ export const siteConfig = {
   nav: [
     { label: 'How It Works', href: '#how-it-works' },
     { label: 'Features', href: '#features' },
+    { label: 'Benefits', href: '#benefits' },
     { label: 'Manual vs. Automated', href: '#comparison' },
-    { label: 'Use Cases', href: '#use-cases' },
     { label: 'Pricing', href: '#pricing' },
     { label: 'FAQ', href: '#faq' },
   ],
