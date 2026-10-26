@@ -5,6 +5,7 @@ import { BeforeAfterSection } from '@/components/sections/BeforeAfterSection';
 import { ReportingSuiteSection } from '@/components/sections/ReportingSuiteSection';
 import { CampaignRoiSection } from '@/components/sections/CampaignRoiSection';
 import { PersonasSection } from '@/components/sections/PersonasSection';
+import { PricingSection } from '@/components/sections/PricingSection';
 import { TrustSecuritySection } from '@/components/sections/TrustSecuritySection';
 import { FaqSection } from '@/components/sections/FaqSection';
 import { CtaSection } from '@/components/sections/CtaSection';
@@ -44,17 +45,22 @@ export default function HomePage() {
           <PersonasSection />
         </SectionReveal>
 
-        {/* Section 8: Enterprise Trust & Data Privacy */}
+        {/* Section 8: Pricing */}
+        <SectionReveal>
+          <PricingSection />
+        </SectionReveal>
+
+        {/* Section 9: Enterprise Trust & Data Privacy */}
         <SectionReveal>
           <TrustSecuritySection />
         </SectionReveal>
 
-        {/* Section 9: FAQ */}
+        {/* Section 10: FAQ */}
         <SectionReveal>
           <FaqSection />
         </SectionReveal>
 
-        {/* Section 10: Final CTA + Book a Demo Form */}
+        {/* Section 11: Final CTA + Book a Demo Form */}
         <SectionReveal>
           <CtaSection />
         </SectionReveal>

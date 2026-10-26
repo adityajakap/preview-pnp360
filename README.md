@@ -67,9 +67,10 @@ This repository contains the production landing page for P&P 360, built to insti
 5. **Before vs. After (Comparison Matrix)**: Side-by-side breakdown contrasting manual media clipping with automated intelligence.
 6. **Campaign Attribution Funnel**: Attribution pipeline connecting paid ad exposure and physical on-ground QR poster scans to verified registrations.
 7. **Audience Personas**: Tailored solutions for Government & Public Agencies, PR & Corporate Communications, and Marketing Agencies.
-8. **Enterprise Trust & Multi-Tenant Security**: Interactive PostgreSQL Row-Level Security (RLS) data isolation diagram.
-9. **Frequently Asked Questions**: Accessible accordion addressing setup speed, media source coverage, citation integrity, and data sovereignty.
-10. **High-Impact CTA & Demo Form**: Lead capture interface with instant field validation and asynchronous submission handling.
+8. **Institutional Pricing**: Transparent, tiered investment structure (Professional, Enterprise & Vernacular, Institutional Ministry) with monthly/annual toggle and e-Perolehan procurement assurance.
+9. **Enterprise Trust & Multi-Tenant Security**: Interactive PostgreSQL Row-Level Security (RLS) data isolation diagram.
+10. **Frequently Asked Questions**: Accessible accordion addressing setup speed, media source coverage, citation integrity, and data sovereignty.
+11. **High-Impact CTA & Demo Form**: Lead capture interface with instant field validation and asynchronous submission handling.
 
 ---
 
@@ -107,6 +108,7 @@ Landing-Page-PNP360/
 │   │   │   ├── FaqSection.tsx          # FAQ container & layout
 │   │   │   ├── HowItWorksSection.tsx   # 3-step intelligence pipeline
 │   │   │   ├── PersonasSection.tsx     # Public sector, PR, & agency cards
+│   │   │   ├── PricingSection.tsx      # Tiered pricing & procurement bar
 │   │   │   ├── ReportingSuiteSection.tsx # Snap PNG, PDF brief, & vernacular cards
 │   │   │   ├── TrustSecuritySection.tsx  # PostgreSQL RLS isolation mockup
 │   │   │   └── VernacularArticleCard.tsx # Interactive translation card

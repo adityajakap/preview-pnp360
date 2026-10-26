@@ -17,6 +17,7 @@ export const siteConfig = {
     { label: 'Features', href: '#features' },
     { label: 'Manual vs. Automated', href: '#comparison' },
     { label: 'Use Cases', href: '#use-cases' },
+    { label: 'Pricing', href: '#pricing' },
     { label: 'FAQ', href: '#faq' },
   ],
   vernacularMedia: [
